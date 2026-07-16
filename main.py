@@ -9,7 +9,7 @@ from datetime import datetime
 # Oculta os avisos de segurança no console
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1527113717882425405/IaOkqYsa9PVtxEuPa7Y3zCWvRVO-E3WA6XLqFGUkuh5plXf6Dnedo5K8BYKh6In428x0"
+WEBHOOK_URL = os.environ.get("WEBHOOK_DISCORD")
 ARQUIVO_HISTORICO = "historico.json"
 
 # CONSTANTE DE DATA DE CORTE (Formato DD/MM/AAAA)
