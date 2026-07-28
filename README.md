@@ -6,7 +6,6 @@ Este repositório contém um projeto experimental desenvolvido em Python. O obje
 O script foi construído para monitorar e extrair dados específicos das seguintes fontes:
 * **STN (Secretaria do Tesouro Nacional):** Mapeamento e validação no portal SICONFI.
 * **TCE-SP (Tribunal de Contas do Estado de São Paulo):** Busca por atualizações de Planos de Contas e Demonstrativos do portal Audesp, com agrupamento.
-* **TCE-MG (Tribunal de Contas do Estado de Minas Gerais):** Navegação em rotinas de paginação e extração das versões mais recentes de manuais no portal Sicom.
 
 ## Conceitos e Desafios Abordados
 Durante o desenvolvimento, foram praticados os seguintes conceitos técnicos:
